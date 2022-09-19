@@ -1,6 +1,6 @@
 # Digital library and announcement platform
 
-Team project as part of a university course, created to faciliate the storage of teaching materials, as well as displaying announcements and maintaing attendance sheets(designed for kindergarten usage). 
+Team project as part of a university course, created to facilitate the storage of teaching materials, as well as displaying announcements and maintaining attendance sheets (designed for kindergarten usage). 
 
 It supports user registration and authentication as different types of users (admin, teacher and parent), each user type having granted different permissions.  
 
