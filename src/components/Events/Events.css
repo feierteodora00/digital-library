@@ -1,0 +1,61 @@
+html, body {
+    text-align: center;
+    
+}
+
+.upcomingEvents table {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    width: 80%;
+    max-width: 1350px;
+    background-color: white;    
+}
+
+.upcomingEvents td{
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+    padding-bottom: 0.25em;
+    font-size: 1.1em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom-color: black;
+    border-bottom-width: 0.5px;
+    border-bottom-style: dashed;
+    
+
+}
+
+.upcomingEvents th {
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    border-bottom-color: black;
+    border-bottom-width: 0.5px;
+    border-bottom-style: dashed;
+    
+}
+
+#one{
+    width: 17.5%;
+}
+
+
+#three{
+    width: 10%;
+}
+
+#four {
+    border-right-style: none;
+    width: 10%;
+}

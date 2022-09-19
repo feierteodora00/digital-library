@@ -1,0 +1,24 @@
+html, body {
+    text-align: center;
+    
+}
+
+.flags {
+    display: flex;
+    float: right;
+    margin-right: 2%;
+
+}
+
+.flags input {
+    width: 5em;
+    padding: 0em 0.75em;
+    
+}
+
+.flags input:hover {
+    transform: scale(1.225,1.225);
+    transition: all 0.3s ease-in-out;
+
+}
+

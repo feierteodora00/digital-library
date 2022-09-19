@@ -1,0 +1,93 @@
+
+html, body {
+    text-align: center;
+    
+}
+
+.eventPage {
+    display: flex;
+    
+}
+
+.eventPage>.information {
+    background: #779ecb;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top : 1em;
+    
+  }
+  
+  .eventPage>.information1 {
+    background: #779ecb;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top : 1em;
+    display: block;
+  }
+
+  .eventPage>.information2 {
+    background: #779ecb;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top : 1em;
+    display: block;
+  }
+
+  .addEvents {
+      margin-top: -5em;
+  }
+
+  .eventPage h2{
+      font-size: 2.5em;
+      margin-bottom: -0.7%;
+  }
+
+  .eventvPage input, label {
+    display:block;
+}
+
+.eventPage input{
+    margin-top: 0.3em;
+    margin-left: 2%;
+    float: left;
+    font-size: 1.5em;
+    width: 90%;
+}
+
+.eventPage label {
+    padding-top: 2em;
+    margin-left: 2%;
+    text-align: left;
+    font-size: 2em;
+    
+}
+
+.eventPage textarea{
+    margin-top: 0.3em;
+    margin-left: 2%;
+    float: left;
+    width: 90%;
+    margin-right: 8%;
+    font-size: 2em;
+    height: 7em;
+    margin-bottom: 0.5em;
+    
+}
+
+.submit{
+    margin-bottom: 2em;
+    margin-top: 1em;
+    width: 40%;
+    float: left;
+    margin-left: 30%;
+    font-size: 1.5em;
+
+}
+
+
+.eventPage label{
+    display: block;
+}

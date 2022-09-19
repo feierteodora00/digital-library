@@ -1,0 +1,16 @@
+html, body {
+    text-align: center;
+    
+}
+
+label.language{
+    font-weight: bold;
+    
+}
+
+label.language select{
+    padding: 0.5em;
+    margin-left: 1em;
+    margin-right: 2.5em;
+}
+

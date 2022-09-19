@@ -1,0 +1,29 @@
+html, body {
+  text-align: center;
+  
+}
+
+.contactDetails {
+  font-size: 125%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-height: 20em;
+  margin-top:5%;
+  background-color: white;
+
+}
+
+.contactDetails p {
+  padding: 0.15em;
+  font-size: clamp(70%, 1.4vw, 150%); 
+}
+
+.constantInfo{
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+

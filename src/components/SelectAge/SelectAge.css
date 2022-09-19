@@ -1,0 +1,16 @@
+html, body {
+    text-align: center;
+    
+}
+
+label.age{
+    font-weight: bold;
+    
+}
+
+label.age select{
+    padding: 0.5em;
+    margin-left: 1em;
+    
+}
+

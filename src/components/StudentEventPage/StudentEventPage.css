@@ -1,0 +1,93 @@
+html, body {
+    text-align: center;
+    
+}
+
+.studentEvents{
+    background: #779ecb;
+    width:90%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top:1%;
+    padding-bottom:2%;
+}
+
+.studentEvents h1{
+    font-size: 2.5em;
+    
+}
+
+.studentEvents table {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    width: 80%;
+    max-width: 1350px;
+    background-color: white;       
+}
+
+.studentEvents td{
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+    padding-bottom: 0.25em;
+    font-size: 1.1em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom-color: black;
+    border-bottom-width: 0.5px;
+    border-bottom-style: dashed;
+    
+
+}
+
+.studentEvents th {
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+#sixStudent {
+    border-right-style: none;
+    
+}
+
+#sixTitle {
+    width: 15%;
+}
+
+.searchFeatures{
+    display: inline-flex;
+    
+}
+
+.pdf label {
+    margin-right: 1em;
+    font-weight: bold;
+    display:inline;
+
+}
+
+.pdf a {
+    padding: 0.5em;
+    text-decoration: none;
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    color:black;
+
+}
+
+.pdf{
+    padding: 0.5em;
+
+}

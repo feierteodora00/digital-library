@@ -1,0 +1,320 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+  
+}
+
+.App nav{
+  display: flex;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  background-color: lightgray;
+  margin-bottom: 2em;
+}
+
+.App ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;  
+}
+
+.App li {
+  float: left;
+}
+
+.App li a {
+  display: block;
+  text-align: center;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+}
+
+.App li:hover {
+  background-color: lightslategrey;
+}
+
+.App .footer {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: black;
+  margin-top: 1em;
+  background-color: lightgray;
+}
+
+.App .footer p{
+  margin: 0.25em;
+}
+
+
+.dropdown {
+  
+  color: white;
+  position: relative;
+  display: inline;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdownContent {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-width: 20em; 
+  display: none;
+  flex-wrap: wrap ;
+  position: absolute;
+  background-color: #f1f1f1;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+.dropdownContent li {
+  color: black;
+  width: inherit;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  width: 17em; 
+  
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: black;
+}
+
+.dropdown:hover .dropdownContent {
+  display: flex;
+  flex-wrap: wrap ;
+}
+
+
+.title {
+  font-weight: 500;
+  color: midnightblue;
+}
+
+.element:hover {
+  background-color: lightgrey;
+}
+
+.footer {
+  text-align: center;
+}
+
+.flex-home {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.logo {
+  padding: 10px;
+  margin: auto;
+  width: 307px;
+  height: 100px;
+  align-self: center;
+}
+
+.welcome {
+  font-family: "Times New Roman", Times, serif;
+  color: midnightblue;
+  margin: auto;
+}
+
+.home-page-desc {
+  padding: 10px;
+  border: 2px solid midnightblue;
+  border-radius: 10px;
+  margin: 2%;
+  box-shadow: 5px 5px 5px midnightblue, 7px 7px 7px lightskyblue;
+}
+
+.subtitle-home {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.home-aboutus {
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.teachers {
+  border-radius: 10px;
+  border: 5px groove gray;
+}
+
+.contact {
+  margin-top: 2%;
+  margin-right: 30%;
+  margin-left: 30%;
+  border: 2px solid rgb(25, 25, 112);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(25, 25, 112, 0.475), 7px 7px 7px lightskyblue;
+}
+
+.login {
+  margin: 10%;
+  border: 2px solid midnightblue;
+  border-radius: 10px;
+}
+
+.login-form {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.register {
+  margin: 8%;
+  border: 2px solid midnightblue;
+  border-radius: 10px;
+}
+
+.register-form {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+
+.recovery {
+  width: 50%;
+  margin: auto;
+}
+
+.update-details {
+  border: 2px solid midnightblue;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2%;
+  border-radius: 10px;
+  text-align: left;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+ .button {
+  transition-duration: 0.5s;
+  cursor: pointer;
+ }
+
+ .button:hover {
+  background-color: midnightblue;
+  color: white;
+  border-radius: 5px;
+ }
+
+.adminbutton {
+  margin: 5px;
+} 
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: white;
+}
+
+br {
+  margin: 2px;
+}
+
+.admin-lists {
+  width: 80%;
+  margin: auto;
+}
+
+.user-lists {
+  width: 40%;
+  margin: auto;
+}
+
+
+ @media all and (max-width: 500px) {
+  
+  .flex-home {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .update-details {
+    border: 2px solid midnightblue;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .contact {
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 2px solid rgb(25, 25, 112);
+    border-radius: 10px;
+  }
+
+  .login-form {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+  }
+
+  .register-form {
+    width: 85%;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .recovery {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+.card-body a {
+  color: #000 !important;
+}
+
+.card-body a:hover {
+  color: rgb(26, 100, 227) !important;
+
+}
+
+.card-body li {
+
+    list-style: none;
+    width: 100%;
+    padding: 2%;
+  
+}
+
+.file-card table {
+  margin-left: auto;
+  margin-right: auto;
+}
+

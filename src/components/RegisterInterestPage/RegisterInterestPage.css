@@ -1,0 +1,73 @@
+html, body {
+    text-align: center;
+    
+}
+
+.registerForm{
+    margin-left: 25%;
+    min-height: 45em;
+    margin-right: 25%;
+    background: #779ecb;
+
+}
+
+.registerForm form{
+    margin-left: 15%;
+    
+}
+
+.registerForm input{
+    margin-top: 0.25em;
+    margin-left: 2%;
+    float: left;
+    font-size: 1.5em;
+    width: 70%;
+}
+
+.registerForm label {
+    margin-top: 1.5em;
+    margin-left: 2%;
+    text-align: left;
+    font-size: 1.25em;
+    display: block;    
+}
+
+.registerForm select {
+    margin-top: 0.5em;
+    margin-left: 2%;
+    float: left;
+    font-size: 1.25em;
+    width: 70%;
+    margin-bottom: 1em;
+    
+}
+
+.registerForm p {
+    text-align: center;
+    font-size: 1.25em;
+
+}
+
+#mandatory{
+    margin-top: 4em;
+    padding-bottom: 4%;
+
+}
+
+.registerForm h1{
+   padding-top: 1em;
+   font-size: 2.5em;
+
+}
+
+.registerForm button{
+    margin-top: 0.5em;
+    margin-left: 20%;
+    float: left;
+    font-size: 1.25em;
+    width:30%;
+    min-width: 5em;
+    margin-bottom: 1em;
+    background-color: lightgray;
+
+}

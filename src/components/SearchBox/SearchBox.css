@@ -1,0 +1,21 @@
+html, body {
+    text-align: center;
+    
+}
+
+label.search{
+    font-weight: bold;
+    margin-left: 2.5em;
+
+}
+
+label.search input{
+    margin-left: 1em;
+    margin-right: 2.5em;
+    padding: 0.5em;
+}
+
+
+
+
+

@@ -1,0 +1,103 @@
+html, body {
+    text-align: center;
+    
+}
+
+.addStudentEvents{
+    margin-left: 25%;
+    min-height: 52em;
+    margin-right: 25%;
+    background: #779ecb;
+
+}
+
+.addStudentEvents form{
+    margin-left: 15%;
+    
+}
+
+.addStudentEvents input{
+    margin-top: 0.25em;
+    
+    margin-left: 2%;
+    float: left;
+    font-size: 1.5em;
+    width: 70%;
+}
+
+.addStudentEvents label {
+    margin-top: 2em;
+    margin-left: 2%;
+    text-align: left;
+    font-size: 1.25em;
+    
+}
+
+.addStudentEvents select {
+    margin-top: 0.5em;
+    margin-left: 2%;
+    float: left;
+    font-size: 1.25em;
+    width: 70%;
+    margin-bottom: 1em;
+    
+}
+
+.addStudentEvents p {
+    text-align: center;
+    font-size: 1.25em;
+
+}
+
+#mandatory{
+    margin-top: 4em;
+    padding-bottom: 4%;
+
+}
+
+.addStudentEvents h1{
+   padding-top: 1em;
+   font-size: 2.5em;
+   margin-bottom: -0.5em;
+
+}
+
+.addStudentEvents button{
+    margin-top: 0.5em;
+    margin-left: 20%;
+    float: left;
+    font-size: 1.25em;
+    width:30%;
+    min-width: 5em;
+    margin-bottom: 1em;
+    background-color: lightgray;
+
+}
+
+.addStudentEvents textarea{
+    margin-top: 0.5em;
+    margin-right: 10em;
+    margin-left: 2%;
+    float: left;
+    width: 70%;
+    font-size: 2em;
+    height: 2.5em;
+    padding-bottom: 4em;
+    margin-bottom: 0.4em;
+    
+}
+
+#desc{
+    margin-top: 2em;
+    padding-top: 0.7em;
+    
+}
+
+#notification{
+    margin-bottom: -1em;
+    padding-top: 1em;
+}
+
+.addStudentEvents label{
+    display: block;
+}

@@ -1,0 +1,19 @@
+html, body {
+    text-align: center;
+    
+}
+
+label.class{
+    font-weight: bold;
+    
+    
+
+}
+
+label.class select{
+    padding: 0.5em;
+    margin-left: 1em;
+    margin-right: 2.5em;
+}
+
+
